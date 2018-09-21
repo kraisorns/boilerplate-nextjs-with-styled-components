@@ -32,8 +32,8 @@ class DestinationItem extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Bangkok</Title>
-        <Text>42 Cooking Class</Text>
+        <Title>City</Title>
+        <Text>Total number of Activity</Text>
       </Wrapper>
     );
   }

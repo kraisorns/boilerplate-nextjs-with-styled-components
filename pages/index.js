@@ -32,9 +32,9 @@ const Index = () => (
         <SearchInput placeholder="Where do you want to go?"/>
       </Header>
       <Title>Today</Title>
-      <p>New experience cooking class today</p>
+      <p>New experience today</p>
       <HighlightItem />
-      <Title>Top Destinations</Title>
+      <Title>Top Activities</Title>
       <DestinationItem />
     </ContentContainer>
     <TabBar>

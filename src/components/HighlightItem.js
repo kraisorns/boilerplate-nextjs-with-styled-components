@@ -30,10 +30,10 @@ class HighlightItem extends Component {
     return (
       <Wrapper>
         <TopItem>
-          <span>Tokyo</span>
+          <span>City</span>
           <button>❤️</button>
         </TopItem>
-        <Title>Shokado Bento Class with Tatedashi Matcha Green Tea</Title>
+        <Title>Activity Name</Title>
       </Wrapper>
     );
   }
