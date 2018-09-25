@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Foo } from 'mememe-component';
+
 import Header from '../src/layout/Header';
 import TabBar from '../src/layout/TabBar';
 
@@ -31,6 +33,7 @@ const Index = () => (
       <Header>
         <SearchInput placeholder="Where do you want to go?"/>
       </Header>
+      <Foo text="This is component from custom NPM" />
       <Title>Today</Title>
       <p>New experience today</p>
       <HighlightItem />
